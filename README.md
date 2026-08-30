@@ -1,23 +1,25 @@
-# Toyosi Badmus — Developer Portfolio
+# Toyosi Badmus — Full-Stack Developer
 
-A personal portfolio showcasing my work as a Full-Stack Developer, the technologies I use, and the applications I've built.
+A personal portfolio showcasing my development journey, technical skills, certifications, and applications I've built.
 
 ## About
 
 I'm Toyosi Badmus, a Full-Stack Developer focused on building practical, responsive, and reliable web applications.
 
-My development journey spans frontend and backend development, with experience working with JavaScript, React, Next.js, TypeScript, Python, Django, Flask, PostgreSQL, and modern development tools.
+My development journey spans both frontend and backend development, with experience working with JavaScript, React, Next.js, TypeScript, Python, Django, Flask, PostgreSQL, and modern development tools.
+
+I learn primarily through building real applications, solving technical problems, and continuously expanding my understanding of modern web development.
 
 ## Education
 
-**Bachelor of Science in Computer Science**  
-Crawford University  
-Expected 2027
+**Bachelor of Science in Computer Science**
+Crawford University
+**Expected Graduation:** 2027
 
 ## Certifications
 
-- Legacy Responsive Web Design V8 — freeCodeCamp
-- Career Essentials in Generative AI — Microsoft & LinkedIn
+* **Legacy Responsive Web Design V8** — freeCodeCamp
+* **Career Essentials in Generative AI** — Microsoft & LinkedIn
 
 ## Featured Projects
 
@@ -132,9 +134,7 @@ http://localhost:5173
 
 ## Live Portfolio
 
-Visit the live portfolio to explore the projects and learn more about my work.
-
-toyosi-portfolio-green.vercel.app
+https://toyosi-portfolio.vercel.app/
 
 ## Contact
 
