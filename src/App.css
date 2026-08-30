@@ -767,3 +767,80 @@ main {
     align-items: flex-start;
   }
 }
+
+.education {
+  background: var(--bg-secondary);
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.education-card {
+  padding: 2rem;
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  background: var(--bg-primary);
+}
+
+.education-label {
+  margin: 0 0 1.5rem;
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.education-card h3 {
+  margin: 0 0 0.75rem;
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+.education-school,
+.education-date,
+.certification-item p {
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.education-school {
+  margin: 0 0 0.5rem;
+}
+
+.education-date {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.certification-item {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.certification-item:first-of-type {
+  padding-top: 0;
+}
+
+.certification-item:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.certification-item h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.4rem;
+}
+
+.certification-item p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .education-grid {
+    grid-template-columns: 1fr;
+  }
+}

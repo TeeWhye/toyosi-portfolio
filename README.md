@@ -8,6 +8,17 @@ I'm Toyosi Badmus, a Full-Stack Developer focused on building practical, respons
 
 My development journey spans frontend and backend development, with experience working with JavaScript, React, Next.js, TypeScript, Python, Django, Flask, PostgreSQL, and modern development tools.
 
+## Education
+
+**Bachelor of Science in Computer Science**  
+Crawford University  
+Expected 2027
+
+## Certifications
+
+- Legacy Responsive Web Design V8 — freeCodeCamp
+- Career Essentials in Generative AI — Microsoft & LinkedIn
+
 ## Featured Projects
 
 ### BizTrack

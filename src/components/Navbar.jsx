@@ -11,6 +11,7 @@ function Navbar() {
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
+          <a href="#education">Education</a>
         </div>
 
         <a href="#contact" className="nav-cta">
