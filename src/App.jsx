@@ -14,6 +14,20 @@ function App() {
     <>
       <Navbar />
 
+      <div className="site-tech-background" aria-hidden="true">
+        <span className="site-tech tech-react">React</span>
+        <span className="site-tech tech-javascript">JavaScript</span>
+        <span className="site-tech tech-python">Python</span>
+        <span className="site-tech tech-django">Django</span>
+        <span className="site-tech tech-next">Next.js</span>
+        <span className="site-tech tech-postgres">PostgreSQL</span>
+        <span className="site-tech tech-git">Git</span>
+        <span className="site-tech tech-github">GitHub</span>
+        <span className="site-tech tech-html">HTML5</span>
+        <span className="site-tech tech-css">CSS3</span>
+        <span className="site-tech tech-vite">Vite</span>
+      </div>
+
       <main>
         <Hero />
         <About />

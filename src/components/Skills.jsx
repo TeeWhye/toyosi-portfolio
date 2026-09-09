@@ -1,8 +1,9 @@
 const skillGroups = [
   {
+    number: "01",
     title: "Frontend Development",
     description:
-      "Building responsive and interactive user interfaces.",
+      "Creating responsive, intuitive interfaces with a focus on usability and clean design.",
     skills: [
       "HTML",
       "CSS",
@@ -12,11 +13,11 @@ const skillGroups = [
       "TypeScript",
     ],
   },
-
   {
+    number: "02",
     title: "Backend Development",
     description:
-      "Building server-side applications, APIs, and application logic.",
+      "Building server-side applications, APIs, business logic, and reliable application systems.",
     skills: [
       "Python",
       "Django",
@@ -24,11 +25,11 @@ const skillGroups = [
       "REST APIs",
     ],
   },
-
   {
-    title: "Database & Developer Tools",
+    number: "03",
+    title: "Database & Tools",
     description:
-      "Working with databases, version control, and modern development tools.",
+      "Working with databases, version control, deployment platforms, and modern development workflows.",
     skills: [
       "PostgreSQL",
       "SQLite",
@@ -57,6 +58,12 @@ function Skills() {
         <div className="skills-grid">
           {skillGroups.map((group) => (
             <div className="skill-card" key={group.title}>
+              <div className="skill-card-header">
+                <span className="skill-number">{group.number}</span>
+
+                <span className="skill-indicator"></span>
+              </div>
+
               <h3>{group.title}</h3>
 
               <p>{group.description}</p>

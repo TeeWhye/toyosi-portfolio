@@ -11,4 +11,32 @@ html {
 body {
   margin: 0;
   font-family: "Inter", sans-serif;
+  position: relative;
+  background: #050505;
+  color: #dfe6e0;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(
+      circle at 85% 15%,
+      rgba(140, 255, 0, 0.08),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at 10% 80%,
+      rgba(140, 255, 0, 0.05),
+      transparent 25%
+    );
+  z-index: 0;
+  pointer-events: none;
+}
+
+#root {
+  position: relative;
+  z-index: 1;
 }

@@ -29,7 +29,7 @@ function Footer() {
             LinkedIn
           </a>
 
-          <a href="mailto:badmustoyosi56@email.com">
+          <a href="mailto:badmustoyosi56@gmail.com">
             Email
           </a>
         </div>
@@ -39,7 +39,7 @@ function Footer() {
         <p>© 2026 Toyosi. All rights reserved.</p>
 
         <a href="#" className="back-to-top">
-          Back to top ↑
+          Back to top <span>↑</span>
         </a>
       </div>
     </footer>

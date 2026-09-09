@@ -138,7 +138,7 @@ https://toyosi-portfolio.vercel.app/
 
 ## Contact
 
-**Email:** [badmustoyosi56@email.com](mailto:badmustoyosi56@email.com)
+**Email:** [badmustoyosi56@gmail.com](mailto:badmustoyosi56@gmail.com)
 
 **LinkedIn:** https://www.linkedin.com/in/badmus-toyosi-b07417271/
 
